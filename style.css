@@ -1,0 +1,30 @@
+*{padding:0;
+margin:0;
+}
+.clearfix::after{content:"";
+clear:both;
+display:block;}
+.fixed-width{width:1280px;
+margin:auto;}
+body{width:1280px;
+}
+.logo img{max-width:100%;}
+.logo img{width:384px;
+height:85px;}
+.header{background-color:rgba(9, 132, 227,1.0);}
+.logo{float:left;
+width:30%;}
+.menu{float:right;
+width:70%;}
+.menu ul{background:rgba(9, 132, 227,1.0);
+padding:31px;}
+.menu ul li{font-size:20px;
+display:inline-block;
+margin-left:90px;}
+.menu ul li a{text-decoration:none;
+color:#fff;
+font-size:20px;}
+.banner{background:url(images.jpg) no-repeat;
+box-size:cover;
+width:1280px;
+padding:150px 0;}
